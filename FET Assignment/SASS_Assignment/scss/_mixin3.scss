@@ -1,0 +1,6 @@
+@mixin property($height, $width,$background-color) {
+    border: 1px solid black;
+    height: $height;
+    width: $width;
+    background-color: $background-color;
+}

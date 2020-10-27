@@ -1,0 +1,51 @@
+body{
+    background-image: url('wall.jpg');
+}
+
+button { 
+   border-top-left-radius: 5px;
+   border-bottom-right-radius:5px;
+}
+
+#mainDiv{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#myheader{
+    height: 70px;
+    width: 100%;
+    display:flex;
+}
+
+#search{
+    float:right;
+}
+
+#nav{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     height: 30px;
+     width: 100%;
+     background-color: khaki;
+ }
+
+ #mid{
+    display:flex;
+ }
+
+ #last{
+    display:flex;
+ }
+
+ #divi{
+     height: 400px;
+     width: 100%;
+     background-color: aqua;  
+     text-align: center;
+ }
+
+ ul{
+    list-style-type: none;
+}

@@ -1,0 +1,41 @@
+$padding : 20px 20px 20px;
+@import 'mixin3';
+
+
+
+.container{
+    @include property(200px, 500px,rgb(226, 226, 53));
+    padding: $padding;
+
+&:hover{
+    @include property(200px, 500px, pink);
+}
+&:hover>.cont1{
+    @include property(150px, 110px,rgb(180, 95, 109));
+    text-transform: uppercase;
+}
+&:hover>.cont2{
+    @include property(150px, 110px, rgb(202, 45, 71));
+    text-transform: uppercase;
+}
+}
+
+.cont1{
+    @include property(150px, 110px,rgb(15, 70, 15));
+    padding: $padding;
+    float: left;
+}
+
+.cont2{
+    @include property(150px, 110px,lightgreen);
+    padding: $padding;
+    float: left;
+}
+.btn
+{
+    &:hover>.btn{
+        @include property(50px, 100px,rgb(86, 67, 129));
+        text-transform: uppercase;
+    }
+    @include property(50px, 100px,rgb(61, 37, 117));
+}

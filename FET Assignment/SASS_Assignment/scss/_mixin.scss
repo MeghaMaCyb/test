@@ -1,0 +1,10 @@
+@mixin inputbox($background, $color)
+{
+    background-color: $background;
+    color: $color;
+}
+
+@mixin border($w,$type,$col)
+{
+    border: $w $type $col;
+}

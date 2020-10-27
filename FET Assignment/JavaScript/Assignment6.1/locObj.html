@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Location and History Object</title>
+        <style>
+            table,td,th{
+                align-self: center;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <b>Href</b>
+                </td>
+                <td>
+                    <script>
+                        var x = location.href;
+                        document.writeln(x);
+                    </script>
+                </td>
+                <tr>
+                    <td>
+                        <b>Path Name</b>
+                    </td>
+                    <td>
+                        <script>
+                            var p = location.pathname;
+                            document.writeln(p);
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Protocol</b>
+                    </td>
+                    <td>
+                        <script>
+                            var pc = location.protocol;
+                            document.writeln(pc);
+                        </script>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+        <p>Click <a href="reg.html">Here </a>to register</p>
+    </body>
+
+</html>

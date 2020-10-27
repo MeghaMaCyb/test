@@ -1,0 +1,20 @@
+@import "mixin";
+$primary: red;
+#input1{
+    @include inputbox(white, gray);
+    border-radius: 3px;
+    width: 300px;
+    height: 36px;
+    @include border(1px, solid,#ccc);
+    font-size: 13px;
+    padding-left: 10px;
+}
+#input2{
+    @include inputbox(#eeeeee, #999999);
+    border-radius: 3px;
+    cursor: not allowed;
+}
+#input3{
+    @include inputbox(#fde7e1, red);
+    @include border(1px, solid,red);
+}

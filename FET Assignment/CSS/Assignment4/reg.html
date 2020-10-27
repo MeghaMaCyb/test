@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration page</title>
+        <link href="reg.css" rel="stylesheet" >
+    </head>
+    <body>
+        <form action="">
+            <h1>Registration Form</h1>
+            <div class="table">
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="empid"><b>Employee ID</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="number" name="empid" id="empid" required>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="fname"><b>First Name</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="lname"><b>Last Name</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="dept"><b>Department</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="radio" value="IT" id="IT">
+                        <label for="IT">IT</label>
+                        <input type="radio" value="HR" id="HR">
+                        <label for="Hr">HR</label>
+                        <input type="radio" value="Finance" id="Finance">
+                        <label for="Finance">Finance</label>
+                        <input type="radio" value="Admin" id="Admin">
+                        <label for="Admin">Admin</label>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="dj"><b>Date of Joining</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="date" required>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="email"><b>Email</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="cont"><b>Contact No</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="number" name="cont" id="cont" required>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="address"><b>Address</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="text" name="address" id="address" required>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                        <label for="programs"><b>Training programs to be attended</b></label>
+                    </div>
+                    <div class="table-cell">
+                        <input type="checkbox" value="webB" id="webB">
+                        <label for="webB">Web Basics</label><br>
+                        <input type="checkbox">
+                        <label for="webB">C#</label><br>
+                        <input type="checkbox">
+                        <label for="webB">Entity Framework</label><br>
+                        <input type="checkbox">
+                        <label for="webB">ASP.NET MVC</label><br>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell">
+                    </div>
+                    <div class="table-cell">
+                        <input type="submit" value="Cancel">
+                        <button type="submit">Register</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </body>
+</html>

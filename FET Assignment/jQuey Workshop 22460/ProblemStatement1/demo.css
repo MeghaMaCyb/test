@@ -1,0 +1,29 @@
+.circle1 {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .circle2 {
+    height: 80px;
+    width: 80px;
+    background-color:yellow;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .circle3 {
+    height: 80px;
+    width: 80px;
+    background-color:orange;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .circle4 {
+    height: 80px;
+    width: 80px;
+    background-color:green;
+    border-radius: 50%;
+    display: inline-block;
+  }

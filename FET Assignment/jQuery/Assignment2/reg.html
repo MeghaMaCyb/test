@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form using jQuery and jQuery-UI.</title>
+    <script src="../jquery-3.5.1.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    
+    <script src="reg.js"></script>
+    
+</head>
+<body>
+    <form class="cmxform" id="commentForm" method="get">
+        <fieldset>
+            <legend><b>Registration Form</b></legend>
+            <p>
+                <lable for="username">Username</lable>
+                <input type="text" id="username" name="username">
+            </p>
+            <p>
+                <lable for="password">Password</lable>
+                <input type="password" id="password" name="password">
+            </p>
+            <p>
+                <lable for="cpassword">Confirm Password</lable>
+                <input type="password" id="cpassword" name="cpassword">
+            </p>
+            <p>
+                <lable for="email">Email</lable>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <lable for="phone">Phone No</lable>
+                <input type="number" id="pnumber" name="pnumber">
+            </p>
+            <p>
+                <lable for="skills">Skills</lable>
+                <input list="skills" id="skill" name="skills">
+                <datalist id="skills">
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Angular">Angular</option>
+                    <option value="React">React</option>
+                    <option value="ASP.NET">ASP.NET</option>
+                </datalist>
+            </p>
+            <p>
+                <lable for="city">City</lable>
+                <select name="city" id="city">
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Satara">Satara</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+            </p>
+            <p>
+                <input class="submit" type="submit" value="Submit">
+            </p>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>

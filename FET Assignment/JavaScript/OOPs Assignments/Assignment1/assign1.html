@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Title
+        </title>
+        <link rel="stylesheet" href="assign1.css">
+        <script src="code.js"></script>
+        <script src="assign1.js"></script>
+    </head>
+    <body>
+        <div>
+        <label for="x-coordinate"> Enter x coordinate </label>
+        <input type="number" id="x-cd">
+        <label for="y-coordinate"> Enter y coordinate </label>
+        <input type="number" id="y-cd">
+        <button onclick="addPoint();"> Enter </button>
+        <br>
+        <p id="list"> Entered Coordinates :</p>
+        </div>
+        <p>Triangle</p>
+        <div class="row">
+        <button onclick="printTriangleArea()"> Calculate Area </button>
+        <button onclick="printTrianglePeri()"> Calculate Perimeter </button>
+        </div>
+        <p>Rectangle</p>
+        <div class="row">
+        <button onclick="printRectArea()"> Calculate Area </button>
+        <button onclick="printRectPeri()"> Calculate Perimeter </button>
+        </div>
+        <p>Square</p>
+        <div class="row">
+        <button onclick="printSquareArea()"> Calculate Area </button>
+        <button onclick="printSquarePeri()"> Calculate Perimeter </button>
+        </div>
+        <h3> Result </h3>
+        <p id="res"></p>
+    </body>
+</html>

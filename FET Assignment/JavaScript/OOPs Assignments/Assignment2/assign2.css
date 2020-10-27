@@ -1,0 +1,34 @@
+
+        table
+        {
+            width: 75%;
+            height: 25%;
+        }
+		.title{ 
+		margin-bottom: 10px; 
+		text-align:center; 
+		width: 75%; 
+		color:aqua; 
+        border: solid black 2px; 
+        background-color: rgb(128, 109, 180);
+		} 
+
+		input[type="button"] 
+		{ 
+		background-color:rgb(235, 160, 160); 
+		color: rgb(19, 8, 5)    ; 
+		border: solid black 2px; 
+		width:100% 
+		} 
+
+		input[type="text"] 
+		{ 
+		background-color:white; 
+		border: solid rgb(27, 22, 22) 2px; 
+		width:100% 
+		} 
+		#c
+		{
+			background-color: rgb(119, 68, 68);
+			border:0px solid rgb(230, 133, 133);
+		}

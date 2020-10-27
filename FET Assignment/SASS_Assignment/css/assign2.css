@@ -1,0 +1,25 @@
+#btn1 {
+  background-color: #8bc34a;
+  color: #FFFFFF;
+  border: 1px solid #8bc34a; }
+  #btn1:hover {
+    background-color: #9dce5d;
+    color: #FFFFFF;
+    border: 1px solid #9dce5d; }
+  #btn1:disabled {
+    background-color: #eeeeee;
+    color: #999999;
+    border: 1px solid #eeeeee; }
+
+#btn2 {
+  background-color: #FFFFFF;
+  color: #2095f2;
+  border: 1px solid #2095f2; }
+  #btn2:hover {
+    background-color: #2095f2;
+    color: #FFFFFF;
+    border: 1px solid #2095f2; }
+  #btn2:disabled {
+    background-color: #ffffff;
+    color: #999999;
+    border: 1px solid #cccccc; }

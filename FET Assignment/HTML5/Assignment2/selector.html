@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myDIV {
+  border: 1px solid black;
+  margin: 5px;
+}
+</style>
+<title>Selector API</title>
+</head>
+<body>
+
+<div id="myDIV">
+  <p class="mypara">This is my paragraph</p> 
+</div>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV").querySelectorAll(".mypara");
+  x[0].style.backgroundColor = "red";
+}
+</script>
+
+</body>
+</html>

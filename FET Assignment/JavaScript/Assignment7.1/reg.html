@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script src="./reg.js">
+
+    </script>
+    <link rel="stylesheet" href="./reg.css">
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form name="sectionForm" id="sectionForm" method="GET" action="#" >
+        <table>
+            <tr>
+                <td>
+                   Enter your First Name :
+                </td>
+                <td>
+                    <input id="name" type="text" placeholder="John" required autofocus>
+                </td>
+            </tr>
+     
+            <tr>
+                <td>
+                   Enter your Last Name :
+                </td>
+                <td>
+                    <input type="text" placeholder="Dsouza" required >
+                </td>
+            </tr>
+          
+            <tr>
+                <td>
+                 Enter your Email Id
+                </td>
+                <td>
+                    <input id="email" autofocus type="text" placeholder="johnd@something.com" required name="email" onblur="ValidateEmail()">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   Enter your Mobile Number :
+                </td>
+                <td>
+                    <input type="tel" required pattern="[1-9]+[0-9]{9}" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                Your Hobbies
+                </td>
+                <td>
+                    Reading &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" id="h1" name="h1" value="Reading" oninput="checks()"><br>
+                    Watching Movies <input type="checkbox" id="h2" name="h2" value="Watching_Movies"><br>
+                    Photography&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="h3" name="h3" value="Photography"><br>
+                </td>
+            </tr>
+            <tr hidden id="read">
+                <td>
+                    Favourite Writer
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Your Date of Birth
+                </td>
+                <td>
+                    <input id="dob" type="text" placeholder="DD/MM/YYYY  or DD-MM-YYYY" required  name="dob1" oninput="validatedate()">
+                </td>
+                <td>
+                    <span id="dobm"></span>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <button type="submit" onclick="check1()">Submit</button>
+                 
+                   &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                   <button type="reset" onclick="reset()">Reset</button>
+                </td>
+
+            </tr>
+        </table>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+table{
+    widows: 100%;
+    border-collapse: collapse;
+    border: 1px solid purple;
+}
+tr{
+    text-align: center;
+    font-size: large;
+}
+td{
+    border: 1px solid purple;
+}
+
+caption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-style: italic;
+    caption-side: top;
+    color: salmon;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: xx-large;
+}
+
+thead{
+    background-color: sandybrown;
+}
+tbody tr:nth-child(odd)
+{
+    background-color: violet;
+}

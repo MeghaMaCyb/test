@@ -1,0 +1,46 @@
+
+div{
+    size: 100%;
+}
+header{
+    background-color:plum ;
+    font-family: cursive;
+    color:blue;
+    border-radius: 10px;
+}
+footer{
+    background-color:plum  ;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 10px;
+    }
+    div.column:first-child{
+        background-color: rgb(89, 190, 190);
+        border-radius: 10px;
+    }
+    div.column:last-child{
+        background-color: rgb(89, 190, 190);
+        border-radius: 10px;
+    }
+    div.column{
+        visibility: ;
+    }
+    
+.column {
+    float: left;
+    width: 33.33%;
+    }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    table, td {
+        border: 1px solid black;
+        text-align: center;
+        align-self: center;
+      }
+    body{
+        align-self: center;
+    }

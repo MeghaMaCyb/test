@@ -1,0 +1,36 @@
+@import 'mixin';
+@import 'variable2';
+$primary: red;
+#btn1{
+    @include inputbox(#8bc34a, #FFFFFF);
+    @include border(1px, solid,#8bc34a);
+    &:hover{
+    @include inputbox( #9dce5d,#FFFFFF);
+    @include border(1px, solid,#9dce5d);
+    }
+    &:disabled{
+        @include inputbox( #eeeeee,#999999);
+        @include border(1px, solid,#eeeeee);
+        }
+}
+
+#btn2{
+    @include inputbox(#FFFFFF, #2095f2);
+    @include border(1px, solid,#2095f2);
+    &:hover{
+    @include inputbox( #2095f2,#FFFFFF);
+    @include border(1px, solid,#2095f2);
+    }
+    &:disabled{
+        @include inputbox( #ffffff,#999999);
+        @include border(1px, solid,#cccccc);
+        }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+input:focus, textarea:focus{
+    background-color: lightyellow;
+    border:1px solid red;
+    
+}
+body
+{
+    text-align: center;
+}
+form
+{
+    position: relative;
+    text-align: center;
+    margin-left: 300px;
+}
+
+
+.error
+{
+color: red; 
+}   
+.ok
+{
+color: green;
+}
